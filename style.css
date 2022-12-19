@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("./VID_414370918_035050_559.mp4");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.video{
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video video{
+    width: 100vw;
+    height: 100vh;
+}
+
+.blabla{
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    
+    border-radius: 50%;
+    position: absolute;
+    /* animation: ddd 3s;
+    animation-delay: 5s; */
+    z-index: 55;
+    top:250px;
+    left : 950px;
+   
+}
+
+/* @keyframes ddd {
+    0%{
+        width: 10px;
+    }
+    100%{
+        width: 800px;
+    }
+} */
